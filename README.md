@@ -93,7 +93,7 @@ You can either have everything in a single notebook (`fashion_mnist_cnn.ipynb`) 
 
 ## Usage
 
-If you're using a single notebook (`fashion_mnist_cnn.ipynb`), simply open it in Google Colab and run the cells sequentially.
+If you're using a single notebook (`fashion-mnist-cnn.ipynb`), simply open it in Google Colab and run the cells sequentially.
 
 If you've separated the code into `.py` files, you can import and use them within your notebook. For example:
 
