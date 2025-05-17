@@ -55,6 +55,8 @@ The [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset is
 ## Project Structure
 
 For Google Colab, the project structure will be simpler:
+
+```
 ├── assets/
 │   └── fashion-mnist-example.png  # Example image
 ├── fashion-mnist-cnn.ipynb         # Main Jupyter Notebook containing the code
@@ -63,6 +65,7 @@ For Google Colab, the project structure will be simpler:
 ├── evaluate.py                   # (Optional) Script for evaluating the trained model
 ├── README.md                     # This file
 └── requirements.txt
+```
 
 You can either have everything in a single notebook (`fashion_mnist_cnn.ipynb`) or split the model, training, and evaluation logic into separate `.py` files that can be imported into the notebook.
 
@@ -162,6 +165,7 @@ def evaluate_model(model, test_loader):
 
 train_model(model, train_loader, criterion, optimizer, epochs=5)
 evaluate_model(model, test_loader)
+```
 
 ## Model Architecture
 (A detailed description of the CNN architecture you implemented will go here. For example, based on the Net class above:)
