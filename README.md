@@ -59,12 +59,9 @@ For Google Colab, the project structure will be simpler:
 ```
 |── models
 ├── assets/
-│   └── fashion-mnist-example.png  # Example image
-├── fashion-mnist-cnn.ipynb         # Main Jupyter Notebook containing the code
-├── model.py                      # (Optional) Defines the CNN model architecture
-├── train.py                      # (Optional) Script for training the model
-├── evaluate.py                   # (Optional) Script for evaluating the trained model
-├── README.md                     # This file
+│   └── fashion-mnist-example.png     # Example image
+├── fashion-mnist-cnn.ipynb           # Main Jupyter Notebook containing the code                 # (Optional) Script for evaluating the trained model
+├── README.md                         # This file
 └── requirements.txt
 ```
 
@@ -93,9 +90,7 @@ You can either have everything in a single notebook (`fashion_mnist_cnn.ipynb`) 
     ```
 
 ## Usage
-
-- If you're using a single notebook (`fashion-mnist-cnn.ipynb`), simply open it in Google Colab and run the cells sequentially.
-- Else, use the Python modules.
+Simply open the notebook in Google Colab or Kaggle and run the cells sequentially.
 
 ## Model Architecture
 (A detailed description of the CNN architecture you implemented will go here. For example, based on the Net class above:)
